@@ -1,0 +1,11 @@
+**/bin
+**/obj
+.vs
+/packages
+/DewaltDesignAssist.psess
+/DewaltDesignAssist200730.vspx
+/DewaltDesignAssist1.psess
+/DewaltDesignAssist200807.vsp
+/DewaltDesignAssist200813.vsp
+/SBD.DDA.BusinessLogic/Models
+/SBD.DDA.UIPresentation/UserControls/LanguageSelection/ucLanguageSelectionViewModel.cs

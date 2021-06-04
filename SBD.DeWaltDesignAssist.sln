@@ -1,0 +1,283 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.DDA.BusinessLogic", "SBD.DDA.BusinessLogic\SBD.DDA.BusinessLogic.csproj", "{2C63BF2B-421B-48A2-A025-57B2436C6C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.DDA.DataAccess", "SBD.DDA.DataAccess\SBD.DDA.DataAccess.csproj", "{8FFE1C8C-63C2-4CBF-8929-FA6032B92E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.DDA.Services", "SBD.DDA.Services\SBD.DDA.Services.csproj", "{B8A3AFA4-5CF0-4813-88F7-DFCFC875A8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.DDA.Shared", "SBD.DDA.Shared\SBD.DDA.Shared.csproj", "{284C3BE4-4167-40D0-AA87-7C60F2619CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9D9522A-D056-4DD4-8B9E-A973B4C835EB}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\MoreLinq.dll = Solution Items\MoreLinq.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.DDA.Logging", "SBD.DDA.Logging\SBD.DDA.Logging.csproj", "{E11CC493-A490-4B73-BDCF-B910D3DA06B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ILMerge", "ILMerge", "{EB7FA964-CB7C-48F3-B46E-FE4AE570B034}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\ILMerge\ILMerge License.rtf = Solution Items\ILMerge\ILMerge License.rtf
+		Solution Items\ILMerge\ILMerge.doc = Solution Items\ILMerge\ILMerge.doc
+		Solution Items\ILMerge\ILMerge.exe = Solution Items\ILMerge\ILMerge.exe
+		Solution Items\ILMerge\readme.txt = Solution Items\ILMerge\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger", "Logger", "{D5278EB5-82FD-420F-95CE-ABBD62E5F5D5}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Logger\NLog.dll = Solution Items\Logger\NLog.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestSharp", "RestSharp", "{A76DD3B8-9647-436B-BF2F-2C55BBFACCB3}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\RestSharp\RestSharp.dll = Solution Items\RestSharp\RestSharp.dll
+		Solution Items\RestSharp\RestSharp.xml = Solution Items\RestSharp\RestSharp.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.DDA.UIPresentation", "SBD.DDA.UIPresentation\SBD.DDA.UIPresentation.csproj", "{7413483C-D350-4ED6-AD13-6C653BDB643B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevExpress", "DevExpress", "{FDFE459F-A957-422D-93B1-A49A1B87AE2C}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\DevExpress\DevExpress.Charts.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.Charts.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.CodeParser.v16.2.dll = Solution Items\DevExpress\DevExpress.CodeParser.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Data.v16.2.dll = Solution Items\DevExpress\DevExpress.Data.v16.2.dll
+		Solution Items\DevExpress\DevExpress.DataAccess.v16.2.dll = Solution Items\DevExpress\DevExpress.DataAccess.v16.2.dll
+		Solution Items\DevExpress\DevExpress.DemoData.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.DemoData.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.DemoData.v16.2.dll = Solution Items\DevExpress\DevExpress.DemoData.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Images.v16.2.dll = Solution Items\DevExpress\DevExpress.Images.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Mvvm.v16.2.dll = Solution Items\DevExpress\DevExpress.Mvvm.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Office.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.Office.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.Pdf.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.Pdf.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.Pdf.v16.2.Drawing.dll = Solution Items\DevExpress\DevExpress.Pdf.v16.2.Drawing.dll
+		Solution Items\DevExpress\DevExpress.PivotGrid.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.PivotGrid.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.Printing.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.Printing.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.RichEdit.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.RichEdit.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.Sparkline.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.Sparkline.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.Utils.v16.2.dll = Solution Items\DevExpress\DevExpress.Utils.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Utils.v16.2.UI.dll = Solution Items\DevExpress\DevExpress.Utils.v16.2.UI.dll
+		Solution Items\DevExpress\DevExpress.Xpf.Controls.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.Controls.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.Core.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.Core.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.DemoBase.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.DemoBase.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.Docking.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.Docking.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.DocumentViewer.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.Xpf.DocumentViewer.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.Xpf.Layout.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.Xpf.Layout.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.Xpf.LayoutControl.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.LayoutControl.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.NavBar.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.NavBar.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.PdfViewer.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.PdfViewer.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.Printing.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.Printing.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.Ribbon.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.Ribbon.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.RichEdit.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.RichEdit.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.Themes.DeWaltTheme.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.Themes.DeWaltTheme.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpf.Themes.Office2016White.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpf.Themes.Office2016White.v16.2.dll
+		Solution Items\DevExpress\DevExpress.Xpo.v16.2.dll = Solution Items\DevExpress\DevExpress.Xpo.v16.2.dll
+		Solution Items\DevExpress\DevExpress.XtraBars.v16.2.dll = Solution Items\DevExpress\DevExpress.XtraBars.v16.2.dll
+		Solution Items\DevExpress\DevExpress.XtraCharts.v16.2.dll = Solution Items\DevExpress\DevExpress.XtraCharts.v16.2.dll
+		Solution Items\DevExpress\DevExpress.XtraEditors.v16.2.dll = Solution Items\DevExpress\DevExpress.XtraEditors.v16.2.dll
+		Solution Items\DevExpress\DevExpress.XtraGauges.v16.2.Core.dll = Solution Items\DevExpress\DevExpress.XtraGauges.v16.2.Core.dll
+		Solution Items\DevExpress\DevExpress.XtraPrinting.v16.2.dll = Solution Items\DevExpress\DevExpress.XtraPrinting.v16.2.dll
+		Solution Items\DevExpress\DevExpress.XtraReports.v16.2.dll = Solution Items\DevExpress\DevExpress.XtraReports.v16.2.dll
+		Solution Items\DevExpress\DevExpress.XtraReports.v16.2.Extensions.dll = Solution Items\DevExpress\DevExpress.XtraReports.v16.2.Extensions.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EyeShot", "EyeShot", "{8361E63C-3E98-4E0B-8E8E-97421C1E4A12}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\EyeShot\devDept.DataSet.dll = Solution Items\EyeShot\devDept.DataSet.dll
+		Solution Items\EyeShot\devDept.Eyeshot.Control.Wpf.v10.dll = Solution Items\EyeShot\devDept.Eyeshot.Control.Wpf.v10.dll
+		Solution Items\EyeShot\devDept.Eyeshot.Dicom.Wpf.v10.dll = Solution Items\EyeShot\devDept.Eyeshot.Dicom.Wpf.v10.dll
+		Solution Items\EyeShot\devDept.Eyeshot.Kinect.Wpf.v10.dll = Solution Items\EyeShot\devDept.Eyeshot.Kinect.Wpf.v10.dll
+		Solution Items\EyeShot\devDept.Geometry.v10.dll = Solution Items\EyeShot\devDept.Geometry.v10.dll
+		Solution Items\EyeShot\devDept.Graphics.Shaders.v10.dll = Solution Items\EyeShot\devDept.Graphics.Shaders.v10.dll
+		Solution Items\EyeShot\devDept.Graphics.Wpf.v10.dll = Solution Items\EyeShot\devDept.Graphics.Wpf.v10.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iTextSharp", "iTextSharp", "{6696FB02-98C5-4FE3-8B2C-59BDFD5361A6}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\iTextSharp\itextsharp.dll = Solution Items\iTextSharp\itextsharp.dll
+		Solution Items\iTextSharp\itextsharp.pdfa.dll = Solution Items\iTextSharp\itextsharp.pdfa.dll
+		Solution Items\iTextSharp\itextsharp.xmlworker.dll = Solution Items\iTextSharp\itextsharp.xmlworker.dll
+		Solution Items\iTextSharp\itextsharp.xtra.dll = Solution Items\iTextSharp\itextsharp.xtra.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLCE", "SQLCE", "{76CA9DCA-7115-4FA0-8624-D8C3632D9901}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\SQLCE\System.Data.SqlServerCe.dll = Solution Items\SQLCE\System.Data.SqlServerCe.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HtmlAgility", "HtmlAgility", "{30BA8BCD-7A20-4B0C-9323-93DC470B7536}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\HtmlAgility\HtmlAgilityPack.dll = Solution Items\HtmlAgility\HtmlAgilityPack.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "CustomControl\CustomControls.csproj", "{FB5058F4-D8F2-4396-8703-C0F0DA8974B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Newtonsoft", "Newtonsoft", "{58E210D7-041C-4A00-A243-5660B4CEE146}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Newtonsoft\Newtonsoft.Json.dll = Solution Items\Newtonsoft\Newtonsoft.Json.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{45440527-98F1-4389-A129-A24CBEF842E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FontAwesome", "FontAwesome", "{2A0252B1-3F6F-47C2-B039-B975A1D85DFF}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\FontAwesome\FontAwesome.WPF.dll = Solution Items\FontAwesome\FontAwesome.WPF.dll
+	EndProjectSection
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SBD.DDA.Setup", "SBD.DDA.Setup\SBD.DDA.Setup.wixproj", "{E461EEA8-60C2-40B4-91FB-84B582121CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDB.DDA.AutoUpdate", "SDB.DDA.AutoUpdate\SDB.DDA.AutoUpdate.csproj", "{FB9E7E6B-B19F-4F37-A708-2996190CEF13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7Zip", "7Zip", "{AE62214B-6243-4D56-AF58-4096F0A19B6B}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\7Zip\SevenZip.dll = Solution Items\7Zip\SevenZip.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFAnimated", "WPFAnimated", "{EE072A62-32B5-4BE0-95DE-BA5178A83E1F}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\WPFAnimated\WpfAnimatedGif.dll = Solution Items\WPFAnimated\WpfAnimatedGif.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectX", "DirectX", "{26492320-84E4-4DDB-ACB7-5F50796FF38B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Users\Abhijeet\Desktop\New folder\Microsoft.DirectX.Direct3D.dll = ..\Users\Abhijeet\Desktop\New folder\Microsoft.DirectX.Direct3D.dll
+		..\Users\Abhijeet\Desktop\New folder\Microsoft.DirectX.Direct3DX.dll = ..\Users\Abhijeet\Desktop\New folder\Microsoft.DirectX.Direct3DX.dll
+		..\Users\Abhijeet\Desktop\New folder\Microsoft.DirectX.dll = ..\Users\Abhijeet\Desktop\New folder\Microsoft.DirectX.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitsNet", "UnitsNet", "{E5B7CED5-5AB9-4FE8-8F75-6828D6DA5B0A}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\UnitsNet\UnitsNet.dll = Solution Items\UnitsNet\UnitsNet.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBD.DDA.UnitTest", "SBD.DDA.UnitTest\SBD.DDA.UnitTest.csproj", "{4283D1AE-4D99-435D-B372-D36DC42E6CCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SBD.DDA.ForceRes", "ForceRes\SBD.DDA.ForceRes.csproj", "{42DC5B9E-C0AD-46A9-B95D-F70069837DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C63BF2B-421B-48A2-A025-57B2436C6C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C63BF2B-421B-48A2-A025-57B2436C6C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C63BF2B-421B-48A2-A025-57B2436C6C77}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C63BF2B-421B-48A2-A025-57B2436C6C77}.Debug|x86.Build.0 = Debug|Any CPU
+		{2C63BF2B-421B-48A2-A025-57B2436C6C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C63BF2B-421B-48A2-A025-57B2436C6C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C63BF2B-421B-48A2-A025-57B2436C6C77}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C63BF2B-421B-48A2-A025-57B2436C6C77}.Release|x86.Build.0 = Release|Any CPU
+		{8FFE1C8C-63C2-4CBF-8929-FA6032B92E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFE1C8C-63C2-4CBF-8929-FA6032B92E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFE1C8C-63C2-4CBF-8929-FA6032B92E5F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8FFE1C8C-63C2-4CBF-8929-FA6032B92E5F}.Debug|x86.Build.0 = Debug|Any CPU
+		{8FFE1C8C-63C2-4CBF-8929-FA6032B92E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFE1C8C-63C2-4CBF-8929-FA6032B92E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FFE1C8C-63C2-4CBF-8929-FA6032B92E5F}.Release|x86.ActiveCfg = Release|Any CPU
+		{8FFE1C8C-63C2-4CBF-8929-FA6032B92E5F}.Release|x86.Build.0 = Release|Any CPU
+		{B8A3AFA4-5CF0-4813-88F7-DFCFC875A8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A3AFA4-5CF0-4813-88F7-DFCFC875A8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A3AFA4-5CF0-4813-88F7-DFCFC875A8EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B8A3AFA4-5CF0-4813-88F7-DFCFC875A8EB}.Debug|x86.Build.0 = Debug|Any CPU
+		{B8A3AFA4-5CF0-4813-88F7-DFCFC875A8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A3AFA4-5CF0-4813-88F7-DFCFC875A8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A3AFA4-5CF0-4813-88F7-DFCFC875A8EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{B8A3AFA4-5CF0-4813-88F7-DFCFC875A8EB}.Release|x86.Build.0 = Release|Any CPU
+		{284C3BE4-4167-40D0-AA87-7C60F2619CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284C3BE4-4167-40D0-AA87-7C60F2619CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284C3BE4-4167-40D0-AA87-7C60F2619CEF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{284C3BE4-4167-40D0-AA87-7C60F2619CEF}.Debug|x86.Build.0 = Debug|Any CPU
+		{284C3BE4-4167-40D0-AA87-7C60F2619CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284C3BE4-4167-40D0-AA87-7C60F2619CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284C3BE4-4167-40D0-AA87-7C60F2619CEF}.Release|x86.ActiveCfg = Release|Any CPU
+		{284C3BE4-4167-40D0-AA87-7C60F2619CEF}.Release|x86.Build.0 = Release|Any CPU
+		{E11CC493-A490-4B73-BDCF-B910D3DA06B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11CC493-A490-4B73-BDCF-B910D3DA06B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11CC493-A490-4B73-BDCF-B910D3DA06B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E11CC493-A490-4B73-BDCF-B910D3DA06B3}.Debug|x86.Build.0 = Debug|Any CPU
+		{E11CC493-A490-4B73-BDCF-B910D3DA06B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11CC493-A490-4B73-BDCF-B910D3DA06B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E11CC493-A490-4B73-BDCF-B910D3DA06B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{E11CC493-A490-4B73-BDCF-B910D3DA06B3}.Release|x86.Build.0 = Release|Any CPU
+		{7413483C-D350-4ED6-AD13-6C653BDB643B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7413483C-D350-4ED6-AD13-6C653BDB643B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7413483C-D350-4ED6-AD13-6C653BDB643B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7413483C-D350-4ED6-AD13-6C653BDB643B}.Debug|x86.Build.0 = Debug|Any CPU
+		{7413483C-D350-4ED6-AD13-6C653BDB643B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7413483C-D350-4ED6-AD13-6C653BDB643B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7413483C-D350-4ED6-AD13-6C653BDB643B}.Release|x86.ActiveCfg = Release|Any CPU
+		{7413483C-D350-4ED6-AD13-6C653BDB643B}.Release|x86.Build.0 = Release|Any CPU
+		{FB5058F4-D8F2-4396-8703-C0F0DA8974B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5058F4-D8F2-4396-8703-C0F0DA8974B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5058F4-D8F2-4396-8703-C0F0DA8974B9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FB5058F4-D8F2-4396-8703-C0F0DA8974B9}.Debug|x86.Build.0 = Debug|Any CPU
+		{FB5058F4-D8F2-4396-8703-C0F0DA8974B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5058F4-D8F2-4396-8703-C0F0DA8974B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5058F4-D8F2-4396-8703-C0F0DA8974B9}.Release|x86.ActiveCfg = Release|Any CPU
+		{FB5058F4-D8F2-4396-8703-C0F0DA8974B9}.Release|x86.Build.0 = Release|Any CPU
+		{45440527-98F1-4389-A129-A24CBEF842E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45440527-98F1-4389-A129-A24CBEF842E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45440527-98F1-4389-A129-A24CBEF842E8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{45440527-98F1-4389-A129-A24CBEF842E8}.Debug|x86.Build.0 = Debug|Any CPU
+		{45440527-98F1-4389-A129-A24CBEF842E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45440527-98F1-4389-A129-A24CBEF842E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45440527-98F1-4389-A129-A24CBEF842E8}.Release|x86.ActiveCfg = Release|Any CPU
+		{45440527-98F1-4389-A129-A24CBEF842E8}.Release|x86.Build.0 = Release|Any CPU
+		{E461EEA8-60C2-40B4-91FB-84B582121CE4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E461EEA8-60C2-40B4-91FB-84B582121CE4}.Debug|x86.ActiveCfg = Debug|x86
+		{E461EEA8-60C2-40B4-91FB-84B582121CE4}.Debug|x86.Build.0 = Debug|x86
+		{E461EEA8-60C2-40B4-91FB-84B582121CE4}.Release|Any CPU.ActiveCfg = Release|x86
+		{E461EEA8-60C2-40B4-91FB-84B582121CE4}.Release|x86.ActiveCfg = Release|x86
+		{E461EEA8-60C2-40B4-91FB-84B582121CE4}.Release|x86.Build.0 = Release|x86
+		{FB9E7E6B-B19F-4F37-A708-2996190CEF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9E7E6B-B19F-4F37-A708-2996190CEF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9E7E6B-B19F-4F37-A708-2996190CEF13}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FB9E7E6B-B19F-4F37-A708-2996190CEF13}.Debug|x86.Build.0 = Debug|Any CPU
+		{FB9E7E6B-B19F-4F37-A708-2996190CEF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9E7E6B-B19F-4F37-A708-2996190CEF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9E7E6B-B19F-4F37-A708-2996190CEF13}.Release|x86.ActiveCfg = Release|Any CPU
+		{FB9E7E6B-B19F-4F37-A708-2996190CEF13}.Release|x86.Build.0 = Release|Any CPU
+		{4283D1AE-4D99-435D-B372-D36DC42E6CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4283D1AE-4D99-435D-B372-D36DC42E6CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4283D1AE-4D99-435D-B372-D36DC42E6CCF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4283D1AE-4D99-435D-B372-D36DC42E6CCF}.Debug|x86.Build.0 = Debug|Any CPU
+		{4283D1AE-4D99-435D-B372-D36DC42E6CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4283D1AE-4D99-435D-B372-D36DC42E6CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4283D1AE-4D99-435D-B372-D36DC42E6CCF}.Release|x86.ActiveCfg = Release|Any CPU
+		{4283D1AE-4D99-435D-B372-D36DC42E6CCF}.Release|x86.Build.0 = Release|Any CPU
+		{42DC5B9E-C0AD-46A9-B95D-F70069837DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DC5B9E-C0AD-46A9-B95D-F70069837DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DC5B9E-C0AD-46A9-B95D-F70069837DAB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{42DC5B9E-C0AD-46A9-B95D-F70069837DAB}.Debug|x86.Build.0 = Debug|Any CPU
+		{42DC5B9E-C0AD-46A9-B95D-F70069837DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DC5B9E-C0AD-46A9-B95D-F70069837DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DC5B9E-C0AD-46A9-B95D-F70069837DAB}.Release|x86.ActiveCfg = Release|Any CPU
+		{42DC5B9E-C0AD-46A9-B95D-F70069837DAB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB7FA964-CB7C-48F3-B46E-FE4AE570B034} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{D5278EB5-82FD-420F-95CE-ABBD62E5F5D5} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{A76DD3B8-9647-436B-BF2F-2C55BBFACCB3} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{FDFE459F-A957-422D-93B1-A49A1B87AE2C} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{8361E63C-3E98-4E0B-8E8E-97421C1E4A12} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{6696FB02-98C5-4FE3-8B2C-59BDFD5361A6} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{76CA9DCA-7115-4FA0-8624-D8C3632D9901} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{30BA8BCD-7A20-4B0C-9323-93DC470B7536} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{58E210D7-041C-4A00-A243-5660B4CEE146} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{2A0252B1-3F6F-47C2-B039-B975A1D85DFF} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{AE62214B-6243-4D56-AF58-4096F0A19B6B} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{EE072A62-32B5-4BE0-95DE-BA5178A83E1F} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{26492320-84E4-4DDB-ACB7-5F50796FF38B} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+		{E5B7CED5-5AB9-4FE8-8F75-6828D6DA5B0A} = {E9D9522A-D056-4DD4-8B9E-A973B4C835EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29FD7CA3-484D-4268-977E-03A2C4ECCBF3}
+	EndGlobalSection
+EndGlobal
